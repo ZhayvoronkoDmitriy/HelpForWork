@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.folder == "Заявки/Фильтры/Проекты"
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.hasTag("4_часа")
+  - type: cards
+    name: представление
